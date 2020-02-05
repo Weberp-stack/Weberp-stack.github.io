@@ -1,0 +1,113 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color: #C79E93;
+}
+img {
+width: 100%;}
+
+
+
+h1{
+    text-align:center;
+    margin: 1em 2em 0.5em 2em;
+    font-family: sans-serif;
+    font-size: 3em;
+    color: #803D39;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 1em 1em 1em 1em;
+    font-size: 2em;
+    color: #CC5A4E;
+}
+
+
+div.intro {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #662E26;
+}
+
+div.introimage{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    
+
+}
+h3{
+    text-align: left;
+    color: #EA9D32;
+    font-size: 2em;
+}
+div.ingredients h3{
+    font-family: sans-serif;
+    color: #802326;
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+
+div.ingredients ul{
+    
+    font-family: sans-serif;
+    font-size: 1.em;
+    color: #D04837;
+    
+   
+    
+  
+}
+div.ingredients li{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+   
+    
+}
+div.directions{
+    float:left;
+    width: 45%;
+}
+
+div.directions h3{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #802326;
+    text-align: center;
+    
+ 
+}
+div.directions ol{
+    font-family: sans-serif;
+    font-size: 1em;
+    
+    color: #D04837;
+    
+    
+}
+
+div.directions li{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+   
+}
+div.ingredients{
+    float:left;
+    width: 45%;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 0.5em;
+    color: dimgrey;
+    float: none;
+    clear: both;
+}
