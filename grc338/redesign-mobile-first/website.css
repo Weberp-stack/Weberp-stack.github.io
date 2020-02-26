@@ -6,6 +6,10 @@ img {width: 100%;
 
 /*index*/
 
+.heading h1{
+    font-family: 'Trade Winds', sans-serif;
+}
+
 div.image {
     background-color: #E8B28B;
     padding: 1em;
