@@ -7,7 +7,7 @@ img {width: 100%;
 /*index*/
 
 div.image {
-    background-color: #B3955D;
+    background-color: #E8B28B;
     padding: 1em;
     align-content: center;
 }
@@ -17,17 +17,20 @@ body{
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
-    color: #4A5480;
+    font-family: sa;ns-serif;
+    color: #E8B28B;
     margin-top: 0.5em;
 }
 
 button{
-    background-color: #CDC5BF;
-    color: #737373;
-    
+    background-color: #DFE4EB;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
 
 
 .main ul {
@@ -50,19 +53,19 @@ button{
   
 }
 .menu li:hover {
-  background: #F1F3F4;
+  background: #E8B28B;
   cursor: pointer;
 
  
 }
 .main li:hover{
-    background: #FFD285;
+    background: #E8B28B;
     cursor: pointer;
 }
 
 .main a{
     color: #B32A23;
-    margin
+    
 }
 
 .socialmedia{
@@ -77,6 +80,7 @@ h2{
     font-family: sans-serif;
     font-size: 1.5em;
     color: #803E3E;
+    
 }
 .address {
     text-align: center;
@@ -87,27 +91,35 @@ h2{
     text-align: center;
     font-size: 0.8em;
     list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rights{
     text-align: center;
     font-family: sans-serif;
     font-size: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .facebook{
     float:left;
-    width: 3%;
-    align-content: center;
+    width: 2%;
+    display: block;
+    
     
 }
 
 .twitter{
     float:left;
-    width: 3%;
+    width: 2%;
     margin-left: 0.5em;
-    align-content: center;
+    display: block;
+    
 }
 
 /*menu*/
@@ -120,24 +132,33 @@ div.menu ul{
 
 }
 
+
 /*location*/
 
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 ul li{
     text-align: center;
     list-style-type: none;
     font-family: monospace;
     
+    
 }
 div.menu a{
     text-decoration-line: none;
-    color: #EB4223;
+    color: #B32A23;
 }
 
 h5 {
     font-family: sans-serif;
     font-size: 1.7em;
     text-align: center;
+    
     
 }
 
@@ -147,7 +168,11 @@ h5 {
 /*gallery*/
 
 div.gallery{
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
 }
 
 
@@ -157,9 +182,8 @@ div.gallery{
 
 p {
     text-align: center;
-    font-family: sans-serif;
+    font-family: monospace;
     font-size: 1em;
-    color: #FF5702;
     padding: 2em 2em 2em 2em;
     
 }
