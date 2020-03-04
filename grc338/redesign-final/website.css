@@ -6,18 +6,22 @@ img {width: 100%;
 /*index*/
 
 .heading h1{
-font-family: 'Trade Winds', monospace;
-    
+font-family: 'Trade Winds', sans-serif;
+font-size: 4em; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     text-align: center;
     margin-left: 1.1em;
     display: block;
+    font-size: 5em;
 }
 
 div.image {
-    background-color: #E8B28B;
-    padding: 1em;
+    background-color: #EB7351;
+    padding: 0.5em;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -26,18 +30,17 @@ div.image {
 
 body{
 background-color: #FFDFB8;
-   
 }
 
 h1 {
     text-align: center;
     font-family: sans-serif;
-    color: #E8B28B;
+    color: #EB7351;
     margin-top: 0.5em;
 }
 
 button{
-    background-color: #DFE4EB;
+    background-color: #EB7351;;
     align-content: center;
     display: block;
     margin-left: auto;
@@ -57,7 +60,7 @@ text-decoration: none;
     margin-bottom: 1em;
     margin-right: auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-left: auto;
   
 }
@@ -65,19 +68,20 @@ text-decoration: none;
 .main li {
 text-align: center;
 display: inline;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1.5em;;
+    margin-right: 1.5em;
     
 }
 
 .menu li:hover {
-    background: #E8B28B;
+    background: #EB7351;
     cursor: pointer;
 }
 
 .main li:hover{
-    background: #E8B28B;
+    background: #EB7351;
     cursor: pointer;
+    
   
 }
 
@@ -94,9 +98,9 @@ display: inline;
 
 h2{
     text-align: center;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 1.5em;
-    color: #803E3E;
+    color: rgb(0,0,0);
 }
 
 .address {
@@ -104,16 +108,17 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 
 h3 {
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 2em;
     text-align: center;
     display: block;
     margin-right: auto;
     margin left: auto;
+    color: rgb(0,0,0);
     }
 
 /*menu*/
@@ -128,8 +133,8 @@ h3 {
 .menu h2{
     text-align: center;
     margin-left: 1.5em;
-  
     display: block;
+    font-size: 1.7em;
 }
 
 
@@ -145,7 +150,12 @@ iframe {
 ul li{
     text-align: center;
     list-style-type: none;
-    font-family: monospace;
+    font-family: sans-serif;
+    margin-right: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.2em;
 }
 
 div.menu a{
@@ -157,7 +167,7 @@ div.menu a{
 }
 
 h5 {
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin: 0.5em 0.5em 0.5em 0.5em;
@@ -170,6 +180,10 @@ div.gallery{
     margin-left: auto;
     margin-right: auto;
     padding: 2em 1em 1em 1em;
+    background-color: #EB7351;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    
 }
 
 .gallery p{
@@ -188,7 +202,7 @@ div.gallery{
 
 p {
     text-align: center;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 1.2em;
     padding: 0.2em 3em 0.2em 3em;
     max-width: 50em;
@@ -201,6 +215,10 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: #EB7351;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    
 }
 
 @media only screen and (min-width:40em){
@@ -208,7 +226,7 @@ p {
         width: 40%;
     }
     div.image {
-        width: 50%;
+        width: 70%;
     }
     div.gallery{
         width: 40%;
@@ -218,5 +236,8 @@ p {
     }
     .crew{
     width: 55%;
+    }
+    .address{
+        width: 50%;
     }
 }
